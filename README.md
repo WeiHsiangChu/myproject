@@ -3,7 +3,7 @@
 This repository contains selected works from my undergraduate and graduate studies in Electrical and Computer Engineering, ranging from antenna design to AI and reinforcement learning projects.
 
 ## 🔹 Undergraduate Projects
-- **[Low-Profile Laptop Antenna for Wi-Fi 6E](undergraduate/antenna-design)**  
+- **[Laptop Antenna Design for Wi-Fi 6E Band](undergraduate/antenna-design)**  
   Designed a PIFA antenna for use in narrow-bezel laptops, optimized for the Wi-Fi 6E band.
 
 ## 🔸 Graduate Projects
