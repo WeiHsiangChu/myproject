@@ -3,7 +3,7 @@
 This project evaluates the performance of different machine learning models for arrhythmia detection based on photoplethysmogram (PPG) signals. The objective is to classify whether a given PPG segment indicates an arrhythmic event.
 
 📄 [View Full Report (PDF)](project-report.pdf)  
-📓 [Jupyter Notebook](final%20project.ipynb)
+📓 [View Code](final-project.ipynb)
 
 ---
 
