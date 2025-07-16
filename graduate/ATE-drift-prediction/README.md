@@ -31,6 +31,9 @@ This project implements an RL agent that learns when to trigger recalibration to
 The RL agent successfully learns to recalibrate in a certain range of the drift:
 
 ![Drift Plot](images/drift-over-time-with-recalibration-events.png)
+- 🔵 **Blue Dashed Line**: Recalibration occurred on time  
+- 🟢 **Green Dashed Line**: Recalibration occurred too early  
+- 🔴 **Red Dashed Line**: Recalibration occurred too late
 
 ---
 
