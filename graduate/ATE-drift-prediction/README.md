@@ -12,19 +12,13 @@ This project simulates an Automated Test Equipment (ATE) environment where chip 
 
 Traditional ATE systems suffer from accuracy loss due to long-term drift. Baseline approaches either:
 - Never recalibrate → accuracy drops
-- Always recalibrate → unnecessary downtime
+- Threshold-based recalibration - a little bit lower accuracy
 
 This project implements an RL agent that learns when to trigger recalibration to balance cost and quality.
 
 ---
 
 ## 📈 Performance Comparison
-
-| Strategy                     | Accuracy | Bad Recall | Good Recall | F1-Score |
-|-----------------------------|----------|------------|-------------|----------|
-| RL strategy                 | 93%      | 88%        | 94%         | 0.93     |
-| Threshold (baseline 2)      | 92%      | 88%        | 93%         | 0.92     |
-| Never Recalibrate (baseline 1) | 69%   | 68%        | 69%         | 0.71     |
 
 🧪 Model performance against two baselines is shown below:
 
