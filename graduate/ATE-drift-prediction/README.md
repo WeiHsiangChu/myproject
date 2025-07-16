@@ -4,7 +4,7 @@
 This project simulates an Automated Test Equipment (ATE) environment where chip quality degrades over time due to drift. The goal is to build a reinforcement learning (RL) agent that predicts when to recalibrate to maintain high classification performance while minimizing downtime.
 
 📄 [View Full Report (PDF)](project-report.pdf)  
-📓 [Jupyter Notebook](ATE-drift-prediction.ipynb)
+📓 [View Code](ATE-drift-prediction.ipynb)
 
 ---
 
