@@ -1,6 +1,3 @@
-# myproject
-A collection of my undergraduate and graduate projects in EE, ECE, AI, and antenna design.
-
 # Wei-Hsiang Chu's Project Portfolio
 
 This repository contains selected works from my undergraduate and graduate studies in Electrical and Computer Engineering, ranging from antenna design to AI and reinforcement learning projects.
