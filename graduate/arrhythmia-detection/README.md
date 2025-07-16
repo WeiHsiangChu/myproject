@@ -18,7 +18,6 @@ This project evaluates the performance of different machine learning models for 
 ## 📚 Dataset
 
 - Data source: **MIMIC-III Waveform Database**
-- Labeled PPG segments (normal vs. arrhythmic) were used directly without additional preprocessing.
 
 ---
 
