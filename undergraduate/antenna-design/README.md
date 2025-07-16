@@ -5,6 +5,14 @@
 This undergraduate project presents a low-profile PIFA antenna design for narrow-bezel laptops.  
 The antenna operates in both 2.4 GHz and Wi-Fi 6E bands and is optimized using HFSS simulations.
 
+## 📷 Final Design Overview
+
+### 🧩 Antenna Structure
+![Antenna Structure](images/antenna-structure.png)
+
+### 📉 Return Loss (S11)
+![Return Loss](images/return-loss.png)
+
 ## 📌 Highlights
 - Frequency bands: 2400–2484 MHz & 5150–7125 MHz
 - Antenna type: PIFA (Planar Inverted-F Antenna)
