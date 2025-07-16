@@ -7,10 +7,10 @@ This repository contains selected works from my undergraduate and graduate studi
   Designed a PIFA antenna for use in narrow-bezel laptops, optimized for the Wi-Fi 6E band.
 
 ## 🔸 Graduate Projects
-- **[Arrhythmia Detection using PPG and Machine Learning](graduate/arrhythmia-ml)**  
+- **[AI for Early Detection of Arrhythmia](graduate/arrhythmia-detection)**  
   Applied supervised learning techniques to detect early signs of arrhythmia from physiological signals.
 
-- **[ATE Drift Prediction using Reinforcement Learning](graduate/ATE-drift-RL)**  
+- **[ATE Drift Prediction](graduate/ATE-drift-prediction)**  
   Simulated an ATE environment and trained agents to predict equipment drift using Double Q-Learning.
 
 ## 📌 About Me
