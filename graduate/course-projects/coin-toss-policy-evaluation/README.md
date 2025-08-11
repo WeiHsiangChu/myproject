@@ -38,7 +38,7 @@ Value of \( v_\pi(s) \) at state \( s = 5 \):
 | Policy         | \(v_\pi(5)\) | Notes |
 |----------------|--------------|-------|
 | Aggressive     | **0.9000**   | Fast win or bust |
-| Conservative   | **1.0000**   | Guaranteed win from $5 |
+| Conservative   | **1.0000**   | Safe, steady climb |
 | Random         | **0.9510**   | Balanced behavior |
 
 ---
