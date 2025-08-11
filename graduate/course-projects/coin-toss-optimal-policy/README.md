@@ -33,20 +33,24 @@ This project computes **optimal policies** for the coin-toss betting game under 
 ## 📊 Results
 
 ### Optimal Policy — Policy Iteration (p = 0.9)
-Key entries (full list in code/report):  
-`pi(1)=1, pi(2)=1, ..., pi(8)=1, pi(9)=8` and terminals thereafter.
 
-**Optimal values (excerpt):**  
-`V(1)=14.9266, V(5)=16.7923, V(9)=16.7927, V(10)=10`
+Optimal policy `pi(s)` for s = 1 to 9:  
+`[1, 1, 1, 1, 1, 1, 1, 1, 8]`  
+(Terminal at s = 0 and s ≥ 10)
+
+Optimal values `V(s)` for s = 1 to 10:  
+`[14.9266, 15.8666, 15.9266, 16.3666, 16.7923, 16.7266, 16.7666, 16.7923, 16.7927, 10]`
 
 ---
 
 ### Optimal Policy — Value Iteration (p = 0.1)
-Key entries (full list in code/report):  
-`pi(1)=1, pi(2)=2, pi(3)=3, pi(4)=1, pi(5)=5, pi(6)=6, pi(7)=7, pi(8)=2, pi(9)=1` and terminals thereafter.
 
-**Optimal values (excerpt):**  
-`V(1)=0.0021, V(3)=0.1200, V(5)=1.0000, V(9)=2.8720, V(10)=10`
+Optimal policy `pi(s)` for s = 1 to 9:  
+`[1, 2, 3, 1, 5, 6, 7, 2, 1]`  
+(Terminal at s = 0 and s ≥ 10)
+
+Optimal values `V(s)` for s = 1 to 10:  
+`[0.0021, 0.0572, 0.1200, 0.2643, 1.0000, 1.5270, 2.1510, 2.5260, 2.8720, 10]`
 
 ---
 
