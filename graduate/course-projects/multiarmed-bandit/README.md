@@ -46,13 +46,3 @@ Below is the reference figure from the textbook, followed by the figure generate
 |-----------------|--------------------------------------|
 | Epsilon-Greedy  | Simple and effective for small tasks |
 | UCB             | Better long-term performance by reducing unnecessary exploration |
-
----
-
-## 🔧 How to Run
-
-1. Open `multiarmed_bandit.m` in MATLAB.
-2. Set parameters (`epsilon`, `c`, `k`, `steps`, `runs`) at the top of the script if needed.
-3. Run:
-   ```matlab
-   multiarmed_bandit
