@@ -26,7 +26,7 @@ Policies:
 
 - **Language:** MATLAB  
 - **Method:** iterative **policy evaluation** (Bellman expectation backup)  
-- **Stopping:** small tolerance on `|v_new - v|_infinity`  
+- **Stopping:** end iterations when the largest change across all state values is below a small threshold (|v_new - v|_infinity < tolerance)
 - **Note:** Using in-place updates corresponds to **Gauss–Seidel**; using a copy corresponds to **Jacobi**. Either converges here because it’s episodic with absorbing terminals.
 
 ---
