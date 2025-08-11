@@ -12,9 +12,13 @@ This project computes **optimal policies** for the coin-toss betting game under 
 
 ## 🧠 Problem Overview
 
-- **State:** current dollars `s in {0,1,...,10}` (terminal at `0` and `>= 10`)
-- **Actions:** bet an integer amount `a in {1,...,min(s,10-s)}`
-- **Transitions:** with prob `p` go to `(s+a)`; with prob `1-p` go to `(s-a)`
+- **State (non-terminal):** current dollars `s in {1,...,9}`
+- **Terminal states:** `s = 0` (lose) and any `s >= 10` (win)
+- **Actions:** bet an integer amount `a in {1,...,s}`  ← matches your implementation (e.g., from `s=9` you can bet `8`)
+- **Transitions (probability of heads = p):**
+  - With prob `p`: next state is `(s + a)`
+  - With prob `1 - p`: next state is `(s - a)`
+- **Episode end:** as soon as the next state is terminal (i.e., `0` or `>= 10`)
 - **Objective:** maximize expected terminal wealth; `gamma = 1` (episodic)
 
 ---
