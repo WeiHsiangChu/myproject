@@ -13,9 +13,7 @@ The goal is to compare the performance of both strategies in terms of average re
 - In this experiment, we simulate a k-armed bandit and evaluate:
   - **Epsilon-Greedy**: Selects a random action with probability ε; otherwise, chooses the action with the highest estimated reward.
   - **UCB**: Selects the action maximizing  
-    \[
-    Q_t(a) + c \sqrt{\frac{\ln t}{N_t(a)}}
-    \]  
+    `Q_t(a) + c * sqrt( ln(t) / N_t(a) )`
     which balances estimated reward and uncertainty.
 
 ---
