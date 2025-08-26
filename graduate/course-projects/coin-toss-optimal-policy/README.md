@@ -4,7 +4,7 @@ This project computes **optimal policies** for the coin-toss betting game under 
 - **Policy Iteration** with head probability `p = 0.9`
 - **Value Iteration** with head probability `p = 0.1`
 
-📓 Code:  
+📓 View Code:  
 - [Policy Iteration (p = 0.9)](coin_toss_policy_iteration.m)  
 - [Value Iteration (p = 0.1)](coin_toss_value_iteration.m)
 
