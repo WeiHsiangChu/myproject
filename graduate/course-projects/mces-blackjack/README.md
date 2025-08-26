@@ -71,7 +71,3 @@ Results from this implementation:
 <p align="center">
   <img src="images/figure4-value-stick.png" alt="Figure 4: V* (Stick on Soft 17)">
 </p>
-
----
-
-## 📂 Project Structure
