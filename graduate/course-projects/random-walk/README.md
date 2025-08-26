@@ -41,15 +41,14 @@ The goal is to compare **Gradient Monte Carlo (MC)** with **Semi-Gradient TD(0)*
 
 - **Gradient Monte Carlo**  
   Uses full-episode returns as the target:  
-  $ \Delta w = \alpha \,[\, G_t - \hat{v}(S_t, w) \,] \,\nabla \hat{v}(S_t, w) $
+  $\Delta w=\alpha[G_t-\hat{v}(S_t,w)]\nabla_w\hat{v}(S_t,w)$
 
 - **Semi-Gradient TD(0)**  
-  Uses one-step TD target (bootstrapping):  
-  $ \Delta w = \alpha \,[\, R_{t+1} + \gamma \hat{v}(S_{t+1}, w) - \hat{v}(S_t, w) \,] \,\nabla \hat{v}(S_t, w) $
+  One-step TD target (bootstrapping):  
+  $\Delta w=\alpha[R_{t+1}+\gamma\hat{v}(S_{t+1},w)-\hat{v}(S_t,w)]\,\nabla_w\hat{v}(S_t,w)$
 
-- **Comparison**  
-  - Gradient MC is unbiased but less efficient (updates only at episode end).  
-  - Semi-Gradient TD(0) is more efficient (online updates) but introduces bias.
+- **Comparison (intuition)**  
+  Gradient MC is unbiased but updates only at episode end; Semi-Gradient TD(0) updates online and is typically more data-efficient but biased.
 
 ---
 
