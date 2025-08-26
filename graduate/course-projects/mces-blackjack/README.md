@@ -51,23 +51,23 @@ Each figure contains results for both **usable Ace** and **no usable Ace**.
 Reference figure from the textbook:
 
 <p align="center">
-  <img src="images/book-figure.png" alt="Figure from Book (Sutton & Barto Fig. 5.2)" width="600">
+  <img src="images/book-figure.png" alt="Figure from Book (Sutton & Barto Fig. 5.2)" width="800">
 </p>
 
 Results from this implementation:
 
 <p align="center">
-  <img src="images/figure1-policy-hit.png" alt="Figure 1: π* (Hit on Soft 17)" width="600">
+  <img src="images/figure1-policy-hit.png" alt="Figure 1: π* (Hit on Soft 17)" width="800">
 </p>
 
 <p align="center">
-  <img src="images/figure2-value-hit.png" alt="Figure 2: V* (Hit on Soft 17)" width="600">
+  <img src="images/figure2-value-hit.png" alt="Figure 2: V* (Hit on Soft 17)" width="800">
 </p>
 
 <p align="center">
-  <img src="images/figure3-policy-stick.png" alt="Figure 3: π* (Stick on Soft 17)" width="600">
+  <img src="images/figure3-policy-stick.png" alt="Figure 3: π* (Stick on Soft 17)" width="800">
 </p>
 
 <p align="center">
-  <img src="images/figure4-value-stick.png" alt="Figure 4: V* (Stick on Soft 17)" width="600">
+  <img src="images/figure4-value-stick.png" alt="Figure 4: V* (Stick on Soft 17)" width="800">
 </p>
