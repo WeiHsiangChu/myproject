@@ -1,6 +1,6 @@
 # 🧭 Cliffwalking – TD Control (Sarsa, Q-learning, Expected Sarsa)
 
-This project reproduces **Fig. 6.6** from Sutton & Barto’s *Reinforcement Learning: An Introduction* by comparing **Sarsa**, **Q-learning**, and **Expected Sarsa** on the classic **4×12 Cliffwalking** task.  
+This project reproduces **Figure 6.6** from Sutton & Barto’s *Reinforcement Learning: An Introduction* by comparing **Sarsa**, **Q-learning**, and **Expected Sarsa** on the classic **4×12 Cliffwalking** task.  
 I plot **performance vs. episodes** (sum of rewards per episode) and add Expected Sarsa as a third curve, alongside Sarsa and Q-learning.
 
 📓 [View Code](cliffwalking-td.ipynb)
@@ -50,18 +50,13 @@ All three use **ε-greedy** action selection to balance exploration and exploita
 Reference figure from the book:
 
 <p align="center">
-  <img src="images/book-example-6-6.png" alt="Book Example 6.6 reference" width="800">
+  <img src="images/book-figure.png" alt="Book Example 6.6 reference" width="800">
 </p>
 
 Results from my implementation:
 
 <p align="center">
   <img src="images/performance-sarsa-qlearning-expected.png" alt="Performance: Sarsa vs Q-learning vs Expected Sarsa" width="800">
-</p>
-
-*(Optional diagnostic)*  
-<p align="center">
-  <img src="images/q-values-goal.png" alt="Q-values at goal state are zero" width="800">
 </p>
 
 ---
