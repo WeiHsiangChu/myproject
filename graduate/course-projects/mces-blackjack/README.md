@@ -57,17 +57,17 @@ Reference figure from the textbook:
 Results from this implementation:
 
 <p align="center">
-  <img src="images/figure1-policy-hit.png" alt="Figure 1: π* (Hit on Soft 17)">
+  <img src="images/figure1-policy-hit.png" alt="Figure 1: π* (Hit on Soft 17)" width="600">
 </p>
 
 <p align="center">
-  <img src="images/figure2-value-hit.png" alt="Figure 2: V* (Hit on Soft 17)">
+  <img src="images/figure2-value-hit.png" alt="Figure 2: V* (Hit on Soft 17)" width="600">
 </p>
 
 <p align="center">
-  <img src="images/figure3-policy-stick.png" alt="Figure 3: π* (Stick on Soft 17)">
+  <img src="images/figure3-policy-stick.png" alt="Figure 3: π* (Stick on Soft 17)" width="600">
 </p>
 
 <p align="center">
-  <img src="images/figure4-value-stick.png" alt="Figure 4: V* (Stick on Soft 17)">
+  <img src="images/figure4-value-stick.png" alt="Figure 4: V* (Stick on Soft 17)" width="600">
 </p>
