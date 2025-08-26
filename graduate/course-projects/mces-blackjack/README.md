@@ -4,7 +4,7 @@ This project implements **Monte Carlo Exploring Starts (MCES)** to solve the *Bl
 We evaluate the optimal policy (π\*) and value function (V\*) under two dealer behaviors on **soft 17**.  
 Each figure contains results for both **usable Ace** and **no usable Ace**.
 
-📓 [View Notebook](mces-blackjack.ipynb)
+📓 [View Code](mces-blackjack.ipynb)
 
 ---
 
