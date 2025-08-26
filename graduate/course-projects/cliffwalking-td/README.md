@@ -18,19 +18,13 @@ The plot shows **performance vs. episodes** (sum of rewards per episode) with al
 ## 🧪 Algorithms
 
 - **Sarsa (on-policy TD control)**  
-  $$
-  Q(s,a) \leftarrow Q(s,a) + \alpha \Big[r + \gamma Q(s',a') - Q(s,a)\Big]
-  $$
+  $Q(s,a) \leftarrow Q(s,a) + \alpha \big[r + \gamma Q(s',a') - Q(s,a)\big]$
 
 - **Q-learning (off-policy TD control)**  
-  $$
-  Q(s,a) \leftarrow Q(s,a) + \alpha \Big[r + \gamma \max_{a'} Q(s',a') - Q(s,a)\Big]
-  $$
+  $Q(s,a) \leftarrow Q(s,a) + \alpha \big[r + \gamma \max_{a'} Q(s',a') - Q(s,a)\big]$
 
 - **Expected Sarsa (expected update under ε-greedy)**  
-  $$
-  Q(s,a) \leftarrow Q(s,a) + \alpha \Big[r + \gamma \mathbb{E}_{a'\sim\pi_\epsilon}[Q(s',a')] - Q(s,a)\Big]
-  $$
+  $Q(s,a) \leftarrow Q(s,a) + \alpha \big[r + \gamma \mathbb{E}_{a'\sim\pi_\epsilon}[Q(s',a')] - Q(s,a)\big]$
 
 All three use **ε-greedy** action selection to balance exploration and exploitation.
 
