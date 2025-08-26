@@ -1,7 +1,7 @@
 # 🧭 Cliffwalking – TD Control (Sarsa, Q-learning, Expected Sarsa)
 
 This project reproduces **Figure 6.6** from Sutton & Barto’s *Reinforcement Learning: An Introduction* by comparing **Sarsa**, **Q-learning**, and **Expected Sarsa** on the classic **4×12 Cliffwalking** task.  
-I plot **performance vs. episodes** (sum of rewards per episode) and add Expected Sarsa as a third curve, alongside Sarsa and Q-learning.
+The plot shows **performance vs. episodes** (sum of rewards per episode) with all three algorithms.
 
 📓 [View Code](cliffwalking-td.ipynb)
 
@@ -18,19 +18,19 @@ I plot **performance vs. episodes** (sum of rewards per episode) and add Expecte
 ## 🧪 Algorithms
 
 - **Sarsa (on-policy TD control)**  
-  \[
-  Q(s,a) \leftarrow Q(s,a) + \alpha \big[r + \gamma\,Q(s',a') - Q(s,a)\big]
-  \]
+  $$
+  Q(s,a) \leftarrow Q(s,a) + \alpha \Big[r + \gamma Q(s',a') - Q(s,a)\Big]
+  $$
 
 - **Q-learning (off-policy TD control)**  
-  \[
-  Q(s,a) \leftarrow Q(s,a) + \alpha \big[r + \gamma\,\max_{a'} Q(s',a') - Q(s,a)\big]
-  \]
+  $$
+  Q(s,a) \leftarrow Q(s,a) + \alpha \Big[r + \gamma \max_{a'} Q(s',a') - Q(s,a)\Big]
+  $$
 
 - **Expected Sarsa (expected update under ε-greedy)**  
-  \[
-  Q(s,a) \leftarrow Q(s,a) + \alpha \big[r + \gamma\,\mathbb{E}_{a'\sim\pi_{\epsilon}}[Q(s',a')] - Q(s,a)\big]
-  \]
+  $$
+  Q(s,a) \leftarrow Q(s,a) + \alpha \Big[r + \gamma \mathbb{E}_{a'\sim\pi_\epsilon}[Q(s',a')] - Q(s,a)\Big]
+  $$
 
 All three use **ε-greedy** action selection to balance exploration and exploitation.
 
@@ -40,7 +40,7 @@ All three use **ε-greedy** action selection to balance exploration and exploita
 
 - **Initialization:** `Q` tables start at zero; the **goal state’s Q-values remain zero** by construction.  
 - **Common hyperparameters:** learning rate `α`, discount `γ`, exploration `ε`.  
-- **Training:** I run multiple episodes and log the **sum of rewards per episode**.  
+- **Training:** multiple episodes are run, and for each episode the **sum of rewards** is computed and plotted to compare performance**.  
 - **Output:** a single plot with three curves (**Sarsa**, **Q-learning**, **Expected Sarsa**).
 
 ---
@@ -59,6 +59,3 @@ Results from my implementation:
   <img src="images/performance-sarsa-qlearning-expected.png" alt="Performance: Sarsa vs Q-learning vs Expected Sarsa" width="800">
 </p>
 
----
-
-## 📂 Project Structure
