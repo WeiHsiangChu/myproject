@@ -74,15 +74,13 @@ Below are original MNIST digits and their reconstructions from patch-based clust
 
 <p align="center">
   <img src="images/recon-0-3.png" alt="Reconstruction of digits 0–3" width="800"><br>
-  <em>Digits 0–3 reconstructed with K = 100, 500, 1000, 5000, 10000</em>
 </p>
 
 <p align="center">
   <img src="images/recon-4-7.png" alt="Reconstruction of digits 4–7" width="800"><br>
-  <em>Digits 4–7 reconstructed with K = 100, 500, 1000, 5000, 10000</em>
 </p>
 
 <p align="center">
   <img src="images/recon-8-9.png" alt="Reconstruction of digits 8–9" width="800"><br>
-  <em>Digits 8–9 reconstructed with K = 100, 500, 1000, 5000, 10000</em>
+  <em>Digits 0–9 reconstructed with K = 100, 500, 1000, 5000, 10000</em>
 </p>
