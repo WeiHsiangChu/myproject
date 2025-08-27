@@ -51,24 +51,34 @@ The method grows textures pixel-by-pixel without building an explicit model, ins
 
 ## 📊 Results
 
-### Texture synthesis
-- **32×32 results** → Coarse but recognizable textures.  
-- **64×64 results** → Higher fidelity, more realistic textures.  
+### Texture synthesis (32×32 outputs)
+Each assigned texture (left) with the synthesized 32×32 result (right):
 
 <p align="center">
-  <img src="images/texture-32.png" alt="32x32 textures" width="400">
-  <img src="images/texture-64.png" alt="64x64 textures" width="400"><br>
-  <em>Efros & Leung texture synthesis at 32×32 (left) and 64×64 (right).</em>
+  <img src="images/texture-32-1.png" alt="32x32 textures part 1" width="800"><br>
+  <img src="images/texture-32-2.png" alt="32x32 textures part 2" width="800"><br>
+  <img src="images/texture-32-3.png" alt="32x32 textures part 3" width="800">
 </p>
+
+---
+
+### Texture synthesis (64×64 outputs)
+Higher-resolution synthesis showing finer texture detail:
+
+<p align="center">
+  <img src="images/texture-64.png" alt="64x64 textures" width="800"><br>
+  <em>Efros & Leung synthesis at 64×64 resolution.</em>
+</p>
+
+---
 
 ### MNIST synthesis
 - Poor seed/window choice → noisy digit-like blobs.  
 - Improved seed + larger window → clearer digits.  
 
 <p align="center">
-  <img src="images/mnist-poor.png" alt="MNIST poor synthesis" width="300">
-  <img src="images/mnist-good.png" alt="MNIST improved synthesis" width="300"><br>
-  <em>MNIST digit “8” synthesis – poor vs improved settings.</em>
+  <img src="images/mnist-poor-vs-good.png" alt="MNIST synthesis – poor vs improved" width="500"><br>
+  <em>MNIST digit “8” synthesis – poor vs good initialization.</em>
 </p>
 
 ---
