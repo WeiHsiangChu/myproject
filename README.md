@@ -4,7 +4,7 @@ This repository contains selected works from my undergraduate and graduate studi
 
 ## 🎓 Undergraduate Projects
 
-- **[Laptop Antenna Design for Wi-Fi 6E Band](antenna-design/)**  
+- **[Laptop Antenna Design for Wi-Fi 6E Band](undergraduate/antenna-design/)**  
   Designed a compact PIFA for narrow-bezel laptops, optimized for the Wi-Fi 6E band.
 
 ---
