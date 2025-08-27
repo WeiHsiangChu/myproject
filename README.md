@@ -11,17 +11,17 @@ This repository contains selected works from my undergraduate and graduate studi
 
 ## 🎓 Graduate Projects
 
-- **[AI for Early Detection of Arrhythmia](arrhythmia-detection/)**  
+- **[AI for Early Detection of Arrhythmia](graduate/arrhythmia-detection/)**  
   Supervised learning to detect early signs of arrhythmia from physiological signals.
 
-- **[ATE Drift Prediction](ate-drift-prediction/)**  
+- **[ATE Drift Prediction](graduate/ate-drift-prediction/)**  
   Simulated an ATE environment and trained agents to predict equipment drift (Double Q-Learning).
 
 ---
 
 ## 📘 Course Projects (RL & ML)
 
-- **[MCES Blackjack](mces-blackjack/)**  
+- **[MCES Blackjack](graduate/course-projects/mces-blackjack/)**  
   Monte Carlo Exploring Starts for Blackjack; reproduced policy \(\pi^*\) and value \(V^*\) under two dealer soft-17 behaviors (hit/stick) with usable vs no-usable-ace plots.
 
 - **[Cliffwalking TD](cliffwalking-td/)**  
