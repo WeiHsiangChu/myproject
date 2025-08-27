@@ -77,10 +77,7 @@ Higher-resolution synthesis showing finer texture detail:
 - Improved seed + larger window → clearer digits.  
 
 <p align="center">
-  <img src="images/mnist-poor-vs-good.png" alt="MNIST synthesis – poor vs improved" width="500"><br>
+  <img src="images/mnist-poor-vs-good.png" alt="MNIST synthesis – poor vs improved" width="800"><br>
   <em>MNIST digit “8” synthesis – poor vs good initialization.</em>
 </p>
 
----
-
-## 📂 Project Structure
