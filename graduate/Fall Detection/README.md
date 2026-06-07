@@ -151,10 +151,3 @@ This makes the approach attractive for battery-powered healthcare monitoring sys
 - Data Augmentation
 - Embedded AI Systems
 
----
-
-## 📚 Citation
-
-Chu, W.-H., Karthik, K., Kay, E., et al.
-
-**WeBe Band: Evaluation of Threshold-Based Fall Detection Framework Using Wrist-Worn Triaxial Accelerometer Signals**
