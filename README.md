@@ -11,10 +11,10 @@ This repository contains selected works from my undergraduate and graduate studi
 
 ## 🎓 Graduate Projects  
 
-- **[Gesture Recognition using WeBe Band](graduate/Gesture Detection)**
+- **[Gesture Recognition using WeBe Band](graduate/Gesture%20Detection)**
   Built an embedded machine learning pipeline for real-time gesture recognition using wrist-worn accelerometer data, achieving 98.1% classification accuracy.
 
-- **[Fall Detection using WeBe Band](graduate/Fall Detection)**
+- **[Fall Detection using WeBe Band](graduate/Fall%20Detection)**
   Developed a wrist-based fall detection system using signal processing, threshold optimization, and LOOCV evaluation for wearable healthcare applications.
 
 - **[AI for Early Detection of Arrhythmia](graduate/arrhythmia-detection)**
