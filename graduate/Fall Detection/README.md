@@ -118,7 +118,8 @@ Activities involving large arm movements, such as jogging and jumping, were more
 
 The activity-level analysis is shown below.
 
-![Activity Analysis](images/activity-analysis.png)
+![ADL-Type Analysis](images/adl-analysis.png)
+![Fall-Type Analysis](images/fall-analysis.png)
 
 These results highlight the challenges associated with wrist-based fall detection compared to torso-mounted sensors.
 
