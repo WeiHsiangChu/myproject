@@ -16,7 +16,7 @@ This project investigates whether reliable gesture recognition can be achieved u
 
 The target gestures used in this study are illustrated below.
 
-![Gesture Illustration](gesture-illustration.png)
+![Gesture Illustration](images/gesture-illustration.png)
 
 - ⭕ O Gesture
 - ❌ X Gesture
@@ -38,7 +38,7 @@ To improve generalization and class balance, several time-series augmentation te
 
 Representative accelerometer signals from the three gesture classes are shown below.
 
-![Gesture Signals](gesture-signals.png)
+![Gesture Signals](images/gesture-signals.png)
 
 The visualization highlights the distinct motion patterns associated with each gesture and demonstrates that meaningful class-specific information can be extracted using only accelerometer measurements.
 
@@ -65,7 +65,7 @@ The extracted features were used to train and evaluate multiple lightweight mach
 
 Feature separability was further analyzed using t-SNE visualization.
 
-![Feature Analysis](tsne-feature-analysis.png)
+![Feature Analysis](images/tsne-feature-analysis.png)
 
 The selected feature set produced well-separated clusters, indicating strong discriminative power between gesture classes.
 
@@ -75,7 +75,7 @@ The selected feature set produced well-separated clusters, indicating strong dis
 
 Multiple embedded-friendly machine learning models were evaluated and compared based on classification performance, latency, and memory footprint.
 
-![Model Comparison](model-comparison.png)
+![Model Comparison](images/model-comparison.png)
 
 The final Neural Network achieved the best overall performance:
 
