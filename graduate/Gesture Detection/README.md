@@ -2,8 +2,7 @@
 
 This project develops an end-to-end machine learning pipeline for real-time gesture recognition using triaxial accelerometer data collected from the WeBe Band wearable device. The objective is to accurately classify user-performed "X" and "O" gestures while distinguishing them from random motions under embedded system constraints.
 
-📄 [View Full Paper (PDF)](WeBe_Band_Gesture_XO.pdf)  
-📓 [View Code](gesture-recognition.ipynb)
+📄 [Download Full Paper](WeBe_Band_Gesture_XO.pdf)
 
 ---
 
@@ -13,25 +12,35 @@ Wearable devices used in healthcare and human-computer interaction often require
 
 This project investigates whether reliable gesture recognition can be achieved using only wrist-mounted triaxial accelerometer signals without relying on cameras or full IMU systems. The resulting models are designed for deployment on resource-constrained embedded devices.
 
----
+### Gesture Definitions
 
-## 🧪 Data Collection & Processing
+The target gestures used in this study are illustrated below.
 
-Five participants performed multiple sessions of three motion classes:
+![Gesture Illustration](gesture-illustration.png)
 
 - ⭕ O Gesture
 - ❌ X Gesture
 - 🎲 Random Motions
 
-Data were collected using the WeBe Band wearable device at a sampling rate of 25 Hz.
+The inclusion of random motions helps reduce false positives and improves robustness in real-world deployment scenarios.
 
-To improve robustness and class balance, several time-series augmentation techniques were applied:
+---
+
+## 🧪 Data Collection & Signal Analysis
+
+Five participants performed multiple recording sessions while wearing the WeBe Band on the left wrist. Triaxial accelerometer data were collected at a sampling rate of 25 Hz.
+
+To improve generalization and class balance, several time-series augmentation techniques were applied:
 
 - Temporal Shifting
 - Amplitude Scaling
 - Time Stretching
 
-Gesture segments were manually verified and labeled before model development.
+Representative accelerometer signals from the three gesture classes are shown below.
+
+![Gesture Signals](gesture-signals.png)
+
+The visualization highlights the distinct motion patterns associated with each gesture and demonstrates that meaningful class-specific information can be extracted using only accelerometer measurements.
 
 ---
 
@@ -56,9 +65,17 @@ The extracted features were used to train and evaluate multiple lightweight mach
 
 Feature separability was further analyzed using t-SNE visualization.
 
+![Feature Analysis](tsne-feature-analysis.png)
+
+The selected feature set produced well-separated clusters, indicating strong discriminative power between gesture classes.
+
 ---
 
 ## 📈 Results
+
+Multiple embedded-friendly machine learning models were evaluated and compared based on classification performance, latency, and memory footprint.
+
+![Model Comparison](model-comparison.png)
 
 The final Neural Network achieved the best overall performance:
 
@@ -68,25 +85,23 @@ The final Neural Network achieved the best overall performance:
 | Macro F1 Score | 98.6% |
 | Inference Latency | 1.2 ms |
 
-The model successfully distinguished target gestures from random motions while maintaining low latency suitable for real-time embedded applications.
-
-![Model Performance](images/model-performance.png)
+The model successfully distinguished target gestures from random motions while maintaining real-time inference capability suitable for wearable devices.
 
 ---
 
 ## 🚀 On-Device Deployment
 
-All models were profiled on the WeBe Band platform featuring an ARM Cortex-M4F microcontroller.
+All models were profiled directly on the WeBe Band platform featuring an ARM Cortex-M4F microcontroller.
 
 Key deployment characteristics:
 
 - Real-time inference
+- Fully on-device execution
 - Low memory footprint
 - Sub-2 ms latency
-- Fully on-device execution
 - No cloud connectivity required
 
-This approach improves privacy, security, and responsiveness for wearable healthcare applications.
+This design improves privacy, responsiveness, and reliability for wearable healthcare applications.
 
 ---
 
