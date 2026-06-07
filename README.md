@@ -11,11 +11,17 @@ This repository contains selected works from my undergraduate and graduate studi
 
 ## 🎓 Graduate Projects  
 
-- **[AI for Early Detection of Arrhythmia](graduate/arrhythmia-detection)**  
-  Applied supervised learning techniques to detect early signs of arrhythmia from physiological signals.  
+- **[Gesture Recognition using WeBe Band](graduate/Gesture Detection)**
+  Built an embedded machine learning pipeline for real-time gesture recognition using wrist-worn accelerometer data, achieving 98.1% classification accuracy.
 
-- **[ATE Drift Prediction](graduate/ATE-drift-prediction)**  
-  Simulated an ATE environment and trained agents to predict equipment drift using Double Q-Learning.  
+- **[Fall Detection using WeBe Band](graduate/Fall Detection)**
+  Developed a wrist-based fall detection system using signal processing, threshold optimization, and LOOCV evaluation for wearable healthcare applications.
+
+- **[AI for Early Detection of Arrhythmia](graduate/arrhythmia-detection)**
+  Applied supervised learning techniques to detect early signs of arrhythmia from physiological signals.
+
+- **[ATE Drift Prediction](graduate/ATE-drift-prediction)**
+  Simulated an ATE environment and trained agents to predict equipment drift using Double Q-Learning.
 
 ---
 
