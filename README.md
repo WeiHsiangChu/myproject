@@ -1,6 +1,6 @@
 # Wei-Hsiang Chu's Project Portfolio
 
-This repository contains selected works from my undergraduate and graduate studies in Electrical and Computer Engineering, ranging from antenna design to Machine Learning, Deep Learning, and Reinforcement Learning projects.
+This repository contains selected works from my undergraduate and graduate studies in Electrical and Computer Engineering, ranging from Antenna Design to Machine Learning, Deep Learning, and Reinforcement Learning projects.
 
 ## 📘 Undergraduate Projects  
 
